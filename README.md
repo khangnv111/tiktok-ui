@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `react-app-rewired` config webpack
+Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts.
+
+
+### `customize cra` config webpack
+Using this library will override the default behavior and configuration of create-react-app, therefore invalidating the guarantees that come with it. Use with discretion!
+
+useBabelRc()
+Causes your .babelrc (or .babelrc.js) file to be used, this is especially useful if you'd rather override the CRA babel configuration 
