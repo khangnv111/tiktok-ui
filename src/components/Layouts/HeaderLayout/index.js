@@ -1,4 +1,5 @@
-import Header from '../DefaultLayout/Header';
+import Header from '~/components/Layouts/components/Header/Index';
+
 function HeaderLayout({ children }) {
   return <div>
     <Header></Header>
